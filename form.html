@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Student Registration</title>
+    <style>
+        body {
+            background-color: lightgray;
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        h1 {
+            font-weight: bolder;
+            color: darkred;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        table,
+        tr,
+        td {
+            background-color: darkgray;
+            tab-size: 10px;
+            margin-top: 10px;
+            padding: 15;
+            color: maroon;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <h1>Student Registration</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" placeholder="name" name=""></td>
+            </tr>
+            <tr>
+                <td> Mobile Number:</td>
+                <td><input type="number" placeholder="number" number=""></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio">male
+                    <input type="radio">female
+                </td>
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><select>
+                        <option>select</option>
+                        <option value="pune">pune</option>
+                        <option value="mumbai">mumbai</option>
+                        <option value="kolhapur">kolhapur</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" placeholder="example@gmail.com"> </td>
+            </tr>
+            <td>Qualification:</td>
+            <td><select>
+                    <option>select stream</option>
+                    <option>BCA</option>
+                    <option>BCom</option>
+                    <option>Bsc</option>
+                    <option>Btech</option>
+                    <option>mcom</option>
+                    <option>Mca</option>
+                </select></td>
+            <tr>
+                <td>State</td>
+                <td><input type="name"></td>
+            </tr>
+            <tr>
+                <td>Resume:</td>
+                <td><input type="file" name="img" multiple></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                    <button="submit" value="submit"></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
